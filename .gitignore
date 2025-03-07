@@ -1,0 +1,17 @@
+// Purpose: Ignore files and directories in git
+data/
+*.dat
+*.h5
+*.vtk
+*.f90
+*/src/*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db

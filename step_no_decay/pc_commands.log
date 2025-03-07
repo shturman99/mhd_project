@@ -1,0 +1,233 @@
+# Log file of Pencil Code commands.
+# This compiles with the same parameters as last time in this directory:
+# pc_build -p
+
+# 2025-02-25 22:22:28
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 22:23:06
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 22:25:45
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 22:26:10
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 22:26:16
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 22:26:54
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 22:27:06
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-25 22:30:59
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 22:31:43
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 22:32:05
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-25 22:35:40
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 22:36:42
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 22:37:05
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:25:27
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:25:41
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:27:27
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:33:24
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:33:28
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:36:06
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:36:08
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:36:44
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:37:16
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:37:22
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:37:27
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:37:41
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:38:48
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:38:56
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:40:42
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:40:49
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:43:32
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:43:34
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:44:16
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-25 23:44:20
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-25 23:45:10
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-25 23:45:33
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-26 00:05:27
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-26 00:06:37
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-26 00:07:04
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-26 00:08:40
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-26 00:10:11
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-26 00:10:14
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-26 00:13:55
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-26 00:13:57
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-26 00:17:31
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-26 00:17:34
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-26 00:26:54
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 12:33:57
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-28 12:35:16
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 12:39:55
+/home/mgurgeni/pencil-code/bin/pc_build --clean
+
+# 2025-02-28 12:39:59
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-28 12:41:27
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-28 12:42:07
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 12:42:47
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-28 13:05:22
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 13:05:34
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-28 13:33:56
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-28 13:35:01
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 13:35:14
+mpiexec -n 1 ./src/run.x
+
+# 2025-02-28 14:40:45
+/home/mgurgeni/pencil-code/bin/pc_build 
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-02-28 14:41:23
+mpiexec -n 1 ./src/start.x
+
+# 2025-02-28 14:41:28
+mpiexec -n 1 ./src/run.x
+
+# 2025-03-07 14:13:10
+/home/mgurgeni/pencil-code/bin/pc_build -f GNU-GCC_MPI
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-03-07 14:13:45
+mpiexec -n 1 ./src/start.x
+
+# 2025-03-07 14:13:46
+mpiexec -n 1 ./src/run.x
+
+# 2025-03-07 14:36:17
+mpiexec -n 1 ./src/run.x
+
+# 2025-03-07 15:06:01
+/home/mgurgeni/pencil-code/bin/pc_build -f GNU-GCC_MPI
+# make '-j' 'FFLAGS_DOUBLE=-fdefault-real-8 -fdefault-double-8' 'CFLAGS_DOUBLE=-DDOUBLE_PRECISION' 'LD_MPI=' 'CFLAGS_FFTW3=' 'FFLAGS_FFTW3=' 'LD_FFTW3=' 'CFLAGS_FFTW2=' 'FFLAGS_FFTW2=' 'LD_FFTW2=' 'FC=mpif90' 'F77=mpif77' 'FFLAGS=-O' 'LDFLAGS_HELPER=-dynamic' 'OMPFFLAGS=-fopenmp' 'OMPLFLAGS=-lgomp' 'PPFLAGS=-cpp' 'FSTD_95=-std=f95' 'FSTD_2003=-std=f2003' 'CC=mpicc' 'CFLAGS=-DFUNDERSC=1' 'default_to_be'
+
+# 2025-03-07 15:06:35
+mpiexec -n 1 ./src/start.x
+
+# 2025-03-07 15:06:36
+mpiexec -n 1 ./src/run.x
