@@ -1,0 +1,10 @@
+Revision: 8e5f97901
+ M samples/GravitationalWaves/print.in
+ M samples/GravitationalWaves/run.in
+ M samples/GravitationalWaves/src/Makefile.local
+ M samples/GravitationalWaves/src/cparam.local
+ M samples/GravitationalWaves/start.in
+ M samples/GravitationalWaves/video.in
+ M src/Makefile.parent
+ M src/special/chiral_mhd.f90
+ M src/special/gravitational_waves_hTXk.f90

@@ -4,7 +4,10 @@ data/
 *.h5
 *.vtk
 *.f90
-*/src/*
+*.mod
+*.o
+*.so
+*.h
 
 # Python specific
 __pycache__/
