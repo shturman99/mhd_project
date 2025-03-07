@@ -80,20 +80,19 @@ for dir in $SIM_DIRS; do
     if [[ "$DRY_RUN" == "false" ]]; then
         cd "$dir" || { echo -e "${RED}Failed to change to directory $dir${NC}"; continue; }
     fi
-    
-    # Run pc_setupsrc
-    print_command "pc_setupsrc"
-    if [[ "$DRY_RUN" == "false" ]]; then
-        pc_setupsrc
-        if [[ $? -ne 0 ]]; then
-            echo -e "${RED}pc_setupsrc failed in $dir${NC}"
-            cd "$ORIGINAL_DIR"
-            continue
-        else
-            print_status "pc_setupsrc completed successfully"
-        fi
-    fi
-    
+   # Check if data directory exists, create it if it doesn't
+    if [[ ! -d "data" ]]; then
+    	echo "Data directory doesn't exist. Creating it now..."
+    	mkdir -p data
+    	if [[ $? -eq 0 ]]; then
+        	echo "Successfully created data directory."
+    	else
+        	echo "Failed to create data directory!"
+        exit 1
+    	fi
+	else
+    		echo "Data directory already exists."
+    fi    
     # Run pc_build
     print_command "pc_build -f GNU-GCC_MPI"
     if [[ "$DRY_RUN" == "false" ]]; then

@@ -8,6 +8,8 @@ data/
 *.o
 *.so
 *.h
+*.build
+*.log
 
 # Python specific
 __pycache__/
