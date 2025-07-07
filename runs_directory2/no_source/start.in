@@ -3,7 +3,7 @@
 ! Initialisation parameters for forced helical MHD turbulence
 !
 &init_pars
-  cvsid="8e5f97901"
+  cvsid="f6be9cbab"
   lwrite_aux=T, lread_aux=T, lwrite_ic=F, tstart=1.
   ltolerate_namelist_errors=T
   wav1=500.

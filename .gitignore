@@ -5,7 +5,6 @@
 #    called ‘data’ anywhere in the repo.  The trailing slash narrows it to
 #    directories only.
 data/
-src/
 
 #  If you prefer the explicit “match-at-any-depth” syntax (works in Git ≥ 2.23)
 #  you could use the line below instead of the one above:
