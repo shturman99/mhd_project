@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <buildinfo version="0.1" xmlns:media="http://www.nordita.dk/software/pencil-code/buildinfo">
-  <timestamp>Mon Apr 14 11:42:10 AM EDT 2025</timestamp>
+  <timestamp>Wed 23 Apr 2025 12:01:24 AM EDT</timestamp>
   <buildhost>
     <hostname>murman</hostname>
     <os>Linux</os>
     <osrelease>6.11.0-21-generic</osrelease>
     <user>mgurgeni</user>
-    <uptime> 11:42:10 up  1:05,  1 user,  load average: 5.97, 2.93, 2.10</uptime>
+    <uptime> 00:01:24 up  2:50,  1 user,  load average: 4.26, 1.89, 1.29</uptime>
   </buildhost>
   <buildtime>
-  <timestamp type='start'>Fri Apr 11 01:29:02 AM EDT 2025</timestamp>
-  <timestamp   type='end'>Fri Apr 11 01:29:20 AM EDT 2025</timestamp>
+  <timestamp type='start'>Mon Apr 21 03:03:10 PM EDT 2025</timestamp>
+  <timestamp   type='end'>Mon Apr 21 03:03:27 PM EDT 2025</timestamp>
 </buildtime>
   <makeinfo>
     <var name="FC">mpif90</var>

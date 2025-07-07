@@ -1,22 +1,59 @@
-// Purpose: Ignore files and directories in git
+###############################################################################
+# 1.  Ignore every directory literally named “data” (at any depth)
+###############################################################################
+# -- Git’s “no slash” rule means this single line matches any file or folder
+#    called ‘data’ anywhere in the repo.  The trailing slash narrows it to
+#    directories only.
 data/
+
+#  If you prefer the explicit “match-at-any-depth” syntax (works in Git ≥ 2.23)
+#  you could use the line below instead of the one above:
+# **/data/**
+
+###############################################################################
+# 2.  Common simulation outputs and working files
+###############################################################################
+# Log / checkpoint / numeric dumps
+*.log
+*.out
+*.err
 *.dat
 *.h5
+*.nc
+*.plt*
 *.vtk
-*.f90
-*.mod
-*.o
-*.so
-*.h
-*.build
-*.log
+*.checkpoint
 
-# Python specific
+# Figures that you regenerate from scripts
+figs/**/*.png
+figs/**/*.pdf
+figs/**/*.jpg
+
+###############################################################################
+# 3.  Python build artefacts
+###############################################################################
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+###############################################################################
+# 4.  Jupyter notebook checkpoints
+###############################################################################
 .ipynb_checkpoints/
 
-# OS specific
+###############################################################################
+# 5.  Misc. editor / VCS noise
+###############################################################################
+*.swp
+*.swo
+*.bak
+*~
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/

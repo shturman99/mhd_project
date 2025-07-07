@@ -23,5 +23,5 @@
   lswitch_symmetric=T
 /
 &chiral_mhd_init_pars
-  initspecial='const', mu5_const=1e4
+  initspecial='const', mu5_const=0
 /

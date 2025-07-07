@@ -32,5 +32,4 @@
 &gravitational_waves_hTXk_run_pars
 /
 &chiral_mhd_run_pars
-  diffmu5=1e-6, lambda5=4e8, cdtchiral=1.0
-/
+  diffmu5=1e-6, lambda5=4e8, cdtchiral=1.0, gammaf5=0/

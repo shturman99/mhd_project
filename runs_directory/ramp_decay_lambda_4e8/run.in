@@ -34,5 +34,4 @@
 &chiral_mhd_run_pars
   diffmu5=1e-6, lambda5=4e8, cdtchiral=1.0
   source5=1e9, source5_tdep='step_decay_linear_ramp', 
-  t1_source5=1.005, t2_source5=1.02, source5_expt=0.5,
-  gammaf5=1e2/
+  t1_source5=1.005, t2_source5=1.02, source5_expt=0.5, gammaf5=1e3/
