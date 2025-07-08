@@ -13,4 +13,5 @@ The primary simulations analyze the following configurations:
 - `rd`: ramping up and expoential decay
 - `sd`: step up and exponential decay
 - `nd`: step up and down
+- `ss`: smoothe source
 
