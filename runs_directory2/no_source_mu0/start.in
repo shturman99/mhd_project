@@ -5,8 +5,7 @@
 &init_pars
   cvsid="f6be9cbab"
   lwrite_aux=T, lread_aux=T, lwrite_ic=F, tstart=1.
-  ltolerate_namelist_errors=T
-  wav1=500.
+  ltolerate_namelist_errors=T wav1=1000
 /
 &eos_init_pars
   gamma=1., cs0=.57735027
